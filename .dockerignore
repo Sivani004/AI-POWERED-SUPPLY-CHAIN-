@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+supplychain_env/
+
+# Git files
+.git/
+.gitignore
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Python test and cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+
+
+# Do not ignore project artifacts or source code
+# Keep artifacts/, src/, backend/, and frontend/ included
